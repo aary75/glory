@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    padding-top:20px;
+    margin-top:20px;
+}
+
+.container h2{
+    font-weight:bold;
+    padding-top:20px;
+}
+
+.container1{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:200px;
+}
+
+#cart-container table{
+    border-collapse:collapse;
+    width:84%;
+    table-layout: fixed;
+}
+
+#cart-container table thead{
+    font-weight: 700;
+}
+
+#cart-container table thead td{
+    background:#fd8c66;
+    color:#fff;
+    border:none;
+    padding:6px 0;
+}
+
+.number-input{
+    width:45px;
+    padding-left:4px;
+}
+
+#cart-container table td{
+    border: 1px solid #b6b3b3;
+    text-align:center;
+}
+
+#cart-container table td:nth-child(1){
+    width:100px;
+}
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3)
+{
+    width:200px;
+}
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6)
+{
+    width:170px;
+}
+
+#cart-container table tbody img{
+    width:100px;
+    height:110px;
+    padding-block:10px;
+    object-fit:cover;
+}
+
+#cart-container table tbody i {
+    color: #8d8c89;
+}
+
+#cart-bottom .coupon>div, 
+#cart-bottom .total>div {
+    border: 1px solid #b6b3b3;
+}
+
+#cart-bottom .coupon h5,
+#cart-bottom .total h5{
+    background: #fd8c66;
+    color:#fff;
+    border:none;
+    padding:6px 12px;
+    font-weight:700;
+}
+
+#cart-bottom .coupon p,
+#cart-bottom .coupon input{
+    padding: 0 12px;
+}
+
+#cart-bottom .coupon input {
+    height: 44px;
+}
+ 
+#cart-bottom .coupon input{
+    margin: 0 0 20px 12px;
+}
+
+.coupon button{
+    height:44px;
+    width:200px;
+    color:#fff;
+    border:0;
+    background:#E80071;
+}
+
+#cart-bottom .total div>div{
+    padding: 0 12px;
+}
+
+#cart-bottom .total h6{
+    color: #2a2a2a;
+}
+
+.second-hr{
+    background: #b8b7b3;
+    width: 100%;
+    height: 1px;
+}
+
+#cart-bottom .total div>button{
+    height:44px;
+    width:200px;
+    color:#fff;
+    border:0;
+    background:#E80071;
+    margin:0 12px 12px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.text1{
+    position:relative;
+    width:450px;
+    height:103vh;
+    background-color:rgba(64, 127, 64,0.8);
+    left:1065px;
+    bottom:40px;
+}
+
+.image{
+    background-color:white;
+    position:absolute;
+    width:400px;
+    height:550px;
+    padding:25px;
+    top:65px;
+    left:850px;
+    z-index:1;
+}
+
+#info{
+    display:inline-block;
+    position:relative;
+    width:500px;
+    bottom:530px;
+    left:220px;
+}
+
+#heading{
+    font-size:80px;
+    padding-bottom:20px;
+} 
+
+#para{
+    color:rgba(0,0,0,0.6);
+    font-size:20px;
+}
+
+#logo{
+    display:inline-block;
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:90px;
+    top:15px;
+}
+
+#navbar{
+    position:absolute;
+    left:250px;
+    top:60px;
+}
+
+#navbar a{
+    text-decoration:none;
+    color:black;
+}
+#home{
+    width:40px;
+    height:30px;
+}
+#navbar span{
+    padding:40px;
+    font-family:'Lato',sans-serif;
+}
+
+#navbar span:hover{
+    color:red;
+    cursor:pointer;
+}
+
+
+.fa-user{
+  position:absolute;
+  right:60px;
+  top:18px;
+  background-color:white;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  font-size:22px;
+  z-index:5;
+  display:flex;
+  align-items:center;  
+  justify-content:center;
+}
+
+#login{
+    position:absolute;
+    right:105px;
+    z-index:5;
+    top:27px;
+    font-family:'Lato',sans-serif;
+    
+}
+
+#login a{
+    text-decoration:none;
+    color:black;
+}
+#button{
+    position:relative;
+    bottom:460px;
+    right:290px;
+    padding:5px;
+    width:120px;
+    height:40px;
+    background-color:rgba(64,127,64,0.7);
+    color:white;
+    font-size:17px;
+    border:0;
+    font-family: Lato;
+}
+
+#button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.search-field{
+    position:absolute;
+    width:200px;
+    height:30px;
+    right:18em;
+    top:20px;
+    border:none;
+    border-radius:100px;
+    padding:10px 35px 10px 15px;
+    outline:none;
+    z-index:1;
+}
+
+.search-button{
+    background-color:white;
+    border:none;
+    outline:none;
+    position:absolute;
+    right:18.6em;
+    top:23px;
+    font-size:22px;
+    color:black;
+    z-index:2;
+}
+
+.search-button i{
+    width:20px;
+    height:20px;
+    position:relative;
+    left:380px;
+    object-fit:cover;
+}
