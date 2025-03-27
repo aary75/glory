@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node your-script.js"
+  },
+  "dependencies": {
+    "tailwind.config.js": "^1.0.6",
+    "vite": "^4.4.11"
+  }
+}

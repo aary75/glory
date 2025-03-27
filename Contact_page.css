@@ -1,0 +1,117 @@
+*{
+    font-family:'Lato',sans-serif;
+}
+body{
+    background-color:lightgrey;
+}
+
+#contact{
+    position:absolute;
+    left:320px;
+    top:35px;
+    width:55em;
+    height:40em;
+    background-color:white;
+    border-radius:10px;
+}
+
+#data{
+    position:absolute;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+#us{
+    font-size:28px;
+    font-family:'Lato',sans-serif;
+    font-weight:lighter;
+}
+
+#suggestion{
+    font-family:'Lato',sans-serif;
+    margin-top:-10px;
+    font-size:15px;
+    color:rgba(0,0,0,0.6);
+}
+
+#address{
+    display:flex;
+    justify-content:space-between;
+}
+
+#address div{
+    padding-right:35px;
+}
+
+#address div p{
+    font-size:13px;
+    color:lightgrey;
+    text-transform:uppercase;
+}
+
+#address div span{
+    position:relative;
+    bottom:8px;
+    font-size:15px;
+}
+
+#address-para span{
+    line-height:25px;
+}
+
+#image img{
+    position:absolute;
+    width:27.5em;
+    height:40em;
+    right:0;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px; 
+}
+
+#form{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    top:20px;
+}
+
+#form input,textarea{
+    border-width:0;
+    border-bottom:1px solid lightgrey;
+    margin-bottom:20px;
+    padding-bottom:8px;
+    width:350px;
+}
+
+#form button{
+    width:120px;
+    height:40px;
+    background-color:rgb(235, 189, 74);
+    color:white;
+    border-radius:5px;
+    font-weight:bold;
+    border:none;
+}
+
+h3{
+    position:relative;
+    top:30px;
+    font-size:15px;
+    font-weight:lighter;
+}
+#social-media{
+    display:flex;
+    font-size:13px;
+    color:rgb(206, 200, 200);
+    position:relative;
+    top:10px;
+}
+
+#social-media p{
+    padding-right:10px;
+}
+
+#social-media p:hover{
+    color:rgb(199, 142, 151);
+    cursor:pointer;
+}

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Care</title>
+    <link rel="stylesheet" href="product-lipstick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87768d5180.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar">
+        <img src="/HTML/Project/logo.png" id="logo">
+        <div id="navbar-items">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Luxe</a>
+            <a href="">Contact Us</a>
+            <a href="http://127.0.0.1:5500/HTML/Project/demo_page.html">Glory Fashion</a>
+        </div>
+
+        <!-- <input type="search" placeholder="Search of Glory" id="search"> -->
+        <div class="search">
+          <input type="text" placeholder="Search" id="mysearch">
+          <div class="icon"></div>
+          <div class="input">
+              <!-- <input type="text" placeholder="Search" id="mysearch"> -->
+          </div>
+          <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+      </div>
+
+        <div><i class="fa-regular fa-user"></i></div>
+        <div id="signin">
+        <a href="">Login</a>/
+        <a href="">Register</a></div>
+    </div>
+
+    <div id="menu">
+        <a href="">Makeup</a>
+        <a href="">Skin</a>
+        <a href="">Hair</a>
+        <a href="">Appliances</a>
+        <a href="">Bath & Body</a>
+        <a href="">Natural</a>
+        <a href="">Mom & Baby</a>
+        <a href="">Health & Wellness</a>
+        <a href="">Men</a>
+        <a href="">Fragrance</a>
+        <a href="">Pop Ups</a>
+    </div>
+    <img src="/HTML/Project/offers.png" id="offers">
+
+    <img src="/HTML/Project/haircare_homepage.png" id="lipstick-foreground">
+    <!-- <p id="image-para1">Shine Starts <br>From here</p>
+    <p id="image-para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab<br> obcaecati enim 
+        consequuntur tempore debitis recusandae?</p>
+        <button type="submit" id="image-button">Get Started</button> -->
+        
+      <section id="fixed">
+    <section id="main">
+    <p id="demo" class="demo-heading" onclick="myFunction()">Sort By : Popularity     <i class="fa-solid fa-chevron-down"></i></p>
+    
+    <ul class="demo-list" id="demo1">
+        <li class="first-li">Popularity <input type="radio" name="li" checked="checked"></li>
+        <li>Discount   <input type="radio" name="li"></li>
+        <li>Name <input type="radio" name="li"></li>
+        <li>Customer Top Rated <input type="radio" name="li"></li>
+        <li>New Arrivals <input type="radio" name="li"></li>
+        <li>Price:High To Low <input type="radio" name="li"></li>
+        <li class="last-li">Price:Low to High <input type="radio" name="li"></li>
+    </ul>
+
+</section>
+
+   <section id="parts">
+      <div id="first-part">
+       <p id="demo-head1" class="demo-heading" onclick="myFunction1()">Brands   <i class="fa-solid fa-chevron-down"></i></p>
+
+       <ul class="demo-list" id="demo2">
+        <li class="first-li">M.A.C 44 <input type="checkbox" ></li>
+        <li>ASA 14 <input type="checkbox" ></li>
+        <li>Charlotte Tilbury 19 <input type="checkbox" ></li>
+        <li>Charlotte TIlbury Pro 13 <input type="checkbox" ></li>
+        <li>Bobbi Brown 12 <input type="checkbox" ></li>
+        <li>Huda Beauty 11 <input type="checkbox" ></li>
+        <li>Ctinique 8 <input type="checkbox" ></li>
+        <li>Nudestix 7 <input type="checkbox" ></li>
+        <li>Givenchy 7 <input type="checkbox" ></li>
+        <li>Estee Lauder 7 <input type="checkbox" ></li>
+        <li>DIOR 6 <input type="checkbox" ></li>
+        <li>Guertian 5 <input type="checkbox" ></li>
+        <li>Too Faced 4 <input type="checkbox" ></li>
+        <li>Elizabeth Arden 4 <input type="checkbox" ></li>
+        <li>TheBalm 4 <input type="checkbox" ></li>
+        <li>Natasha Moor 3 <input type="checkbox" ></li>
+       </ul></div>
+
+       <div id="second-part">
+        <p id="demo-head2" class="demo-heading" onclick="myFunction2()">Price   <i class="fa-solid fa-chevron-down"></i></p>
+
+        <ul class="demo-list" id="demo3">
+            <li>Rs. 500-Rs.999 10 <input type="checkbox"></li>
+            <li>Rs. 1000-Rs.1999 40 <input type="checkbox"></li>
+            <li>Rs. 2000-Rs.3999 113 <input type="checkbox"></li>
+            <li>Rs.4000 & Above 18 <input type="checkbox"></li>
+        </ul>
+       </div>
+
+       <div id="third-part">
+        <p id="demo-head3" class="demo-heading" onclick="myFunction3()">Discount   <i class="fa-solid fa-chevron-down"></i></p>
+        <ul class="demo-list" id="demo4">
+        <li>40% And Above 2 <input type="radio" name="fourth"></li>
+        <li>30% And Above 4 <input type="radio" name="fourth"></li>
+        <li>20% And Above 6 <input type="radio" name="fourth"></li>
+        <li>10% And Above 16 <input type="radio" name="fourth"></li>
+        <li>All Discounted Products 16 <input type="radio" name="fourth"></li></ul>
+       </div>
+
+       <div id="fifth-part">
+        <p id="demo-head4" class="demo-heading" onclick="myFunction4()">Color   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo5">
+            <li>Pink 115 <input type="checkbox" ></li>
+            <li>Brown 93 <input type="checkbox" ></li>
+            <li>Red 88 <input type="checkbox" ></li>
+            <li>Nude 74 <input type="checkbox" ></li>
+            <li>Orange 49 <input type="checkbox" ></li>
+            <li>Maroon 48 <input type="checkbox" ></li>
+            <li>Coral 42 <input type="checkbox" ></li>
+            <li>Purple 35 <input type="checkbox" ></li>
+            <li>MUlti-Color 25 <input type="checkbox" ></li>
+            <li>Peach 18 <input type="checkbox" ></li>
+            <li>Rust 12 <input type="checkbox" ></li>
+            <li>Black 8 <input type="checkbox" ></li>
+            <li>Blue 7 <input type="checkbox" ></li>
+            <li>Beige 5 <input type="checkbox" ></li>
+            <li>Gold 4 <input type="checkbox" ></li>
+        </ul>
+    </div>
+
+       <div id="sixth-part">
+        <p id="demo-head5" class="demo-heading" onclick="myFunction5()">Preference   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo6">
+          <li>Paraben Free 34  <input type="checkbox"> </li>
+          <li>Cruelty-Free 30  <input type="checkbox"> </li>
+          <li>Vitamin E 26  <input type="checkbox"> </li>
+          <li>Sulphate Free 26  <input type="checkbox"> </li>
+          <li>Vegan 23  <input type="checkbox"> </li>
+          <li>Pthalate-Free 17  <input type="checkbox"> </li>
+          <li>Hyaluronic Acid 16  <input type="checkbox"> </li>
+          <li>Vitamin A 14  <input type="checkbox"> </li>
+          <li>Natural 14  <input type="checkbox"> </li>
+          <li>Gluten Free 13  <input type="checkbox"> </li>
+          <li>AntiOxidants 10  <input type="checkbox"> </li>
+          <li>Fragrance-Free 9  <input type="checkbox"> </li>
+          <li>Oil-Free 6  <input type="checkbox"> </li>
+          <li>WaterProof 5  <input type="checkbox"> </li>
+          <li>VItamin C 4  <input type="checkbox"> </li>
+        </ul>
+    </div>
+
+       <div id="sixth-part">
+        <p id="demo-head6" class="demo-heading" onclick="myFunction6()">Finish   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo7">
+             <li>Matte 92 <input type="checkbox" ></li>
+             <li>Creme 46 <input type="checkbox" ></li>
+             <li>Satin 29 <input type="checkbox" ></li>
+             <li>Glossy 12 <input type="checkbox" ></li>
+             <li>Natural 4 <input type="checkbox" ></li>
+        </ul>
+    </div>
+
+       <div id="seventh-part">
+        <p id="demo-head7" class="demo-heading" onclick="myFunction7()">Formulation   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo8">
+            <li>Stick 139 <input type="checkbox"></li>
+            <li>Liquid 32 <input type="checkbox"></li>
+            <li>Pencil 17 <input type="checkbox"></li>
+            <li>Cream 15 <input type="checkbox"></li>
+            <li>Powder 1 <input type="checkbox"></li>
+            <li>Gel 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+
+       <div id="eighth-part">
+        <p id="demo-head8" class="demo-heading" onclick="myFunction8()">Coverage   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo9">
+            <li>Full Coverage 117 <input type="checkbox"> </li>
+            <li>Medium Coverage 42 <input type="checkbox"> </li>
+            <li>Low Coverage 5 <input type="checkbox"> </li>
+            <li>Sheer 2 <input type="checkbox"> </li>
+     
+        </ul>
+    </div>
+
+       <div id="ninth-part">
+        <p id="demo-head9" class="demo-heading" onclick="myFunction9()">Gender   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo10">
+          <li>Female 119 <input type="checkbox"></li>
+          <li>Unisex 11 <input type="checkbox"></li>
+        </ul>
+
+    </div>
+
+       <div id="tenth-part">
+        <p id="demo-head10" class="demo-heading" onclick="myFunction10()">Conscious   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo11">
+              <li>Clean 20 <input type="checkbox"></li>
+              <li>Vegan 18 <input type="checkbox"></li>
+              <li>Cruelty-Free 12 <input type="checkbox"></li>
+        </ul>
+    </div>
+
+       <div id="eleventh-part">
+        <p id="demo-head11" class="demo-heading" onclick="myFunction11()">Ingredient   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo12">
+            <li>Argan Oil 11 <input type="checkbox"></li>
+            <li>Shea Butter 11 <input type="checkbox"></li>
+            <li>Vitamin E 6 <input type="checkbox"></li>
+            <li>Vitamin A 5 <input type="checkbox"></li>
+            <li>Avacado 4 <input type="checkbox"></li>
+            <li>Coconut 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+       <div id="twelth-part">
+        <p id="demo-head12" class="demo-heading" onclick="myFunction12()">Concern   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo13">
+             <li>Chapped Lips 15 <input type="checkbox"></li>
+             <li>Dryness 4 <input type="checkbox"></li>
+             <li>Dullness 1 <input type="checkbox"></li>
+             <li>Anti Aging 1 <input type="checkbox"></li>
+             <li>Waterproof 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+       <div id="thirteenth-part">
+        <p id="demo-head13" class="demo-heading" onclick="myFunction13()">Pack Size   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo14">
+           <li>Single 17 <input type="checkbox"></li>
+           <li class="last-li">Pack 4 <input type="checkbox"></li>
+        </ul>
+    </div>
+   </section>
+   </section>
+
+  <section class="products" style="cursor:pointer;">
+    <div class="div-item1" class="item-section"  data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/5/f507df0LOREA00000394_1.jpg" class="image">  
+       <p class="first-para">Hyaluron Moisture 82H Hydrated</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para1" id="icn1"><img src="/HTML/Project/shopping-cart (1).png" class="icon1" id="icn1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image1">
+      <button id="button1" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+      </div>
+
+    <div class="div-item2" class="item-section" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f85bae1NYBNDLP000010_z1.jpg" class="image">
+       <p>Professional Tenso Care Pro-Keratine</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para2" id="icn2"><img src="/HTML/Project/shopping-cart (1).png" class="icon1" ></div>
+       <i class="fa-regular fa-heart" id="fa-heart-2"></i>
+       <i class="fa-brands fa-pinterest-p" id="fa-pinterest-2"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>15 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image2">
+      <button id="button2" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';"
+      target="_blank">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item3" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae12934MATRI00000034_a1.jpg" class="image">
+       <p>Liquid Protein System</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para3"><img src="/HTML/Project/shopping-cart (1).png" id="icn3" class="icon1"></div>
+       <i class="fa-regular fa-heart" id="fa-heart-3"></i>
+       <i class="fa-brands fa-pinterest-p" id="fa-pinterest-3"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>10 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image3">
+      <button id="button3" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item4" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/6/8626955DoveCombo3_1.jpg" class="image">
+       <p>Dove Hair Therapy Breakage Repair With</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para4"><img src="/HTML/Project/shopping-cart (1).png" id="icn4" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>13 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image4">
+      <button id="button4" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item5" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/2/82b17ffLOVEB00000106_1.jpg" class="image">
+       <p>Hair Oil + Shampoo Combo</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para5"><img src="/HTML/Project/shopping-cart (1).png" id="icn5" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image5">
+      <button id="button5" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item6" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/6/c635b35INDUL00000023_1.jpg" class="image">
+       <p>Aveda Botanical Repair</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para6"><img src="/HTML/Project/shopping-cart (1).png" id="icn6" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image6">
+      <button id="button6" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+  
+    <img src="/Practise/pictures/lipstick-background-image.png" id="mid-image">
+    <div class="item-section div-item7" data-aos="zoom-in">
+       <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/5/2521c5dNYSFWBC000074ab_1.jpg" class="image">
+       <p>Glory Naturals Hair Growth Combo</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para7"><img src="/HTML/Project/shopping-cart (1).png" id="icn7" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image7">
+      <button id="button7" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item8" data-aos="zoom-in">
+      <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/9/a9f45ccNYNYKBC001421_0.jpg" class="image">
+      <p>Hair & Body Treament Oil Combo</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para8"><img src="/HTML/Project/shopping-cart (1).png" id="icn8" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image8">
+     <button id="button8" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item9" data-aos="zoom-in">
+      <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/c/8cbcd94NYBNDLP000001_1.jpg" class="image">
+      <p>Professional Absolut Repair Shampoo</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para9"><img src="/HTML/Project/shopping-cart (1).png" id="icn9" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image9">
+     <button id="button9" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+    
+    <div class="item-section div-item10" data-aos="zoom-in">
+      <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/6/765296e7625726547_1.jpg" class="image">
+      <p>L'Oreal Professionnel X-Tenso Care Sulfate free</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para10"><img src="/HTML/Project/shopping-cart (1).png" id="icn10" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image10">
+     <button id="button10" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item11" data-aos="zoom-in">
+      <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f85bae1NYBNDLP000013_z1.jpg" class="image">
+      <p>Opti Care Professional Ultra</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para11"><img src="/HTML/Project/shopping-cart (1).png" id="icn11" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image11">
+     <button id="button11" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item12" data-aos="zoom-in">
+      <img src="https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f85bae1NYBNDLP000019_z1.jpg" class="image">
+      <p>L'Oreal Professional Vitamino Color Shampoo</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para12"><img src="/HTML/Project/shopping-cart (1).png" id="icn12" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image12">
+     <button id="button12" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+   </section>
+
+  <!-- <section id="button-section">
+    <button class="button1">Add to Bag</button>
+    <button id="button2">Add to Bag</button>
+    <button id="button3">Add to Bag</button>
+    <button id="button4">Add to Bag</button>
+    <button id="button5">Add to Bag</button>
+    <button id="button6">Add to Bag</button>
+    <button id="button7">Add to Bag</button>
+    <button id="button8">Add to Bag</button>
+    <button id="button9">Add to Bag</button>
+    <button id="button10">Add to Bag</button>
+    <button id="button11">Add to Bag</button>
+    <button id="button12">Add to Bag</button>
+  </section> -->
+
+
+  <section id="contact">
+    <div id="upper-part">
+      <div id="div1">
+      <i class="fa-regular fa-envelope" style="font-size:25px;position:relative;top:25px;"></i>
+        <p class="info" id="info1">Get Special discount of your inbox</p>
+        <input type="text" placeholder="Your Email" required>
+        <button>Send</button>
+    </div>
+  
+      <div id="div2">
+        <img src="/HTML/Project/mobile icon.png" id="phone">
+        <p class="info" id="info2">Experience the GLory on Mobile App</p>
+        <img src="/HTML/Project/play store.png" class="app-image">
+        <img src="/HTML/Project/app store.png" class="app-image">    
+      </div>
+  
+      <div id="div3">
+        <i class="fa-solid fa-phone" style="font-size:25px;position:relative;top:50px;"></i>
+        <p class="info" id="info3">For any help,You can call us at<br>
+        1800-500-4422</p><br>
+        <p class="info" id="info4">(Monday to Saturday,7am to 9pm and Sunday,8am to 10pm)</p>
+      </div>
+    </div>
+  
+    <div id="lower-part">
+      <div>
+        <h4>GLORY</h4>
+        <ul><li><a href="">About us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Authencity</a></li>
+        <li><a href="">Press</a></li>
+        <li><a href="">Testimonials</a></li>
+        <li><a href="">Glory CSR</a></li>
+        <li><a href="">Responsible Disclosure</a></li>
+        <li><a href="">Investor Relations</a></li></ul>
+      </div>
+  
+      <div id="list2">
+        <h4>Help</h4>
+        <ul><li><a href="">Contact Us</a></li>
+        <li><a href="">Frequently asked questions</a></li>
+        <li><a href="">Store Locator</a></li>
+        <li><a href="">Cancellation & Return</a></li>
+        <li><a href="">Shipping & Delivery</a></li>
+        <li><a href="">Sell on Glory</a></li></ul>
+      </div>
+  
+      <div id="list3">
+        <h4>Inspire Me</h4>
+        <ul>
+        <li><a href="">Beauty Book</a></li>
+        <li><a href="">Glory TV</a></li>
+        <li><a href="">Glory Network</a></li>
+        <li><a href="">Buying Guides</a></li></ul>
+      </div>
+  
+      <div id="list4">
+        <h4>Quick Lines</h4>
+        <ul>
+           <li><a href="">Offer Zone</a></li>
+           <li><a href="">New Launches</a></li>
+           <li><a href="">Glory Man</a></li>
+           <li><a href="">Glory Fashion</a></li>
+           <li><a href="">Glory Pro</a></li>
+        </ul>
+      </div>
+  
+      <div id="list5">
+        <h4>Top Categories</h4>
+        <ul>
+           <li><a href="">MakeUp</a></li>
+        <li><a href="">Skin</a></li>
+        <li><a href="">Hair</a></li>
+        <li><a href="">Bath & Body</a></li>
+        <li><a href="">Appliances</a></li>
+        <li><a href="">Mom and Baby</a></li>
+        <li><a href="">Wellness</a></li>
+        <li><a href="">Fragrance</a></li>
+        <li><a href="">Natural</a></li>
+        <li><a href="">Luxe</a></li></ul>
+      </div>
+    </div>
+  
+    <div id="social-media">
+         <div id="part1">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="Free Shipping">
+          <p>Free Shipping</p>   
+          <span>On orders above &#8377;299</span>    
+        </div>
+  
+         <div id="part2">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="Easy Returns">
+          <p>Easy Returns</p> 
+          <span>15 Day Return Policy</span>
+        </div>
+  
+         <div id="part3">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="brands count">
+          <p>100% Authencity</p> 
+          <span>Product Sourced Quality</span>
+        </div>
+  
+         <div id="para4">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="1900+ Brands">
+          <p>100+<br>Brands</p> 
+          <span>1 Lakh + Products</span>      
+        </div>
+  
+        <section id="connect">
+          <p>Show us some Love <i class="fa-solid fa-heart"></i> on social <span id="media">media</span></p>
+  
+          <section id="social-media-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </section>
+        </section>
+    </div>
+  
+    <section id="last">
+        <p>Terms & Conditions</p>
+        <p>Shipping Process</p>
+        <p>Cancellation Policy</p>
+        <p>Privacy Policy</p>
+    </section>
+    
+    <span id="copyright">&copy; Glory E-Retail Pvt Ltd.All Rights Reserved.</span>
+    
+    </section>
+
+    <button class="chatbot-toggler">
+      <i class="fa-regular fa-message"></i>
+      <i class="fa-solid fa-xmark"></i>
+  </button>
+  <div class="chatbot">
+      <header>
+          <!-- <h2>ChatBot</h2> -->
+          <i class="fa-solid fa-xmark close-btn"></i>
+      </header>
+
+      <ul class="chatbox">
+          <li class="chat incoming">
+              <!-- <span class="material-symbols-outlined">smart_toy</span> -->
+              <img class="material-symbols-outlined" src="/portfolio/chatbot.png" alt="">
+              <!-- <i class="fa-solid fa-headset"></i> -->
+              <p>Hi there 👋 <br> How can I help you today?</p>
+          </li>
+          <!-- <li class="chat outgoing">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </li> -->
+      </ul>
+
+      <div class="chat-input">
+          <textarea placeholder="Enter a message..." required></textarea>
+          <!-- <span id="#send-btn" class="material-symbols-outlined">Send</span> -->
+          <img  id="#send-btn" class="material-symbols-outlined" src="/portfolio/send_button.png">
+      </div>
+  </div>
+
+    
+<script>
+   const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function(){
+            search.classList.toggle('active');
+        }
+
+    var display  = 0;
+function myFunction() {
+  if(display == 1){
+    document.getElementById("demo1").style.visibility = "visible";
+    document.getElementById("demo").style.borderBottomRightRadius = "0";
+    document.getElementById("demo").style.borderBottomLeftRadius = "0";
+    document.getElementById("parts").style.marginTop = "310px";
+    display = 0;
+  }
+  else{
+    document.getElementById("demo1").style.visibility = "hidden";
+    document.getElementById("demo").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo").style.borderBottomLeftRadius = "5px";
+    document.getElementById("parts").style.marginTop = "10px";
+    display = 1;
+  }
+}
+
+    var display1 = 0;
+  function myFunction1() {
+  if(display1 == 1){
+    document.getElementById("demo2").style.visibility = "visible";
+    document.getElementById("demo-head1").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head1").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo2").style.position = "relative";
+    display1 = 0;
+  }
+  else{
+    document.getElementById("demo2").style.visibility = "hidden";
+    document.getElementById("demo-head1").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head1").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo2").style.position = "absolute";
+    display1 = 1;
+  }
+}
+ 
+var display2 = 0;
+  function myFunction2() {
+  if(display2 == 1){
+    document.getElementById("demo3").style.visibility = "visible";
+    document.getElementById("demo-head2").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head2").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo3").style.position = "relative";
+    display2 = 0;
+  }
+  else{
+    document.getElementById("demo3").style.visibility = "hidden";
+    document.getElementById("demo-head2").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head2").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo3").style.position = "absolute";
+    display2 = 1;
+  }
+}
+
+var display3 = 0;
+  function myFunction3() {
+  if(display3 == 1){
+    document.getElementById("demo4").style.visibility = "visible";
+    document.getElementById("demo-head3").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head3").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo4").style.position = "relative";
+    display3 = 0;
+  }
+  else{
+    document.getElementById("demo4").style.visibility = "hidden";
+    document.getElementById("demo-head3").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head3").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo4").style.position = "absolute";
+    display3 = 1;
+  }
+}
+
+var display4 = 0;
+  function myFunction4() {
+  if(display4 == 1){
+    document.getElementById("demo5").style.visibility = "visible";
+    document.getElementById("demo-head4").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head4").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo5").style.position = "relative";
+    display4 = 0;
+  }
+  else{
+    document.getElementById("demo5").style.visibility = "hidden";
+    document.getElementById("demo-head4").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head4").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo5").style.position = "absolute";
+    display4 = 1;
+  }
+}
+
+var display5 = 0;
+  function myFunction5() {
+  if(display5 == 1){
+    document.getElementById("demo6").style.visibility = "visible";
+    document.getElementById("demo-head5").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head5").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo6").style.position = "relative";
+    display5 = 0;
+  }
+  else{
+    document.getElementById("demo6").style.visibility = "hidden";
+    document.getElementById("demo-head5").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head5").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo6").style.position = "absolute";
+    display5 = 1;
+  }
+}
+
+var display6 = 0;
+  function myFunction6() {
+  if(display6 == 1){
+    document.getElementById("demo7").style.visibility = "visible";
+    document.getElementById("demo-head6").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head6").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo7").style.position = "relative";
+    display6 = 0;
+  }
+  else{
+    document.getElementById("demo7").style.visibility = "hidden";
+    document.getElementById("demo-head6").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head6").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo7").style.position = "absolute";
+    display6 = 1;
+  }
+} 
+
+var display7 = 0;
+  function myFunction7() {
+  if(display7 == 1){
+    document.getElementById("demo8").style.visibility = "visible";
+    document.getElementById("demo-head7").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head7").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo8").style.position = "relative";
+    display7 = 0;
+  }
+  else{
+    document.getElementById("demo8").style.visibility = "hidden";
+    document.getElementById("demo-head7").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head7").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo8").style.position = "absolute";
+    display7 = 1;
+  }
+}
+
+var display8 = 0;
+  function myFunction8() {
+  if(display8 == 1){
+    document.getElementById("demo9").style.visibility = "visible";
+    document.getElementById("demo-head8").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head8").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo9").style.position = "relative";
+    display8 = 0;
+  }
+  else{
+    document.getElementById("demo9").style.visibility = "hidden";
+    document.getElementById("demo-head8").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head8").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo9").style.position = "absolute";
+    display8 = 1;
+  }
+}
+
+var display9 = 0;
+  function myFunction9() {
+  if(display9 == 1){
+    document.getElementById("demo10").style.visibility = "visible";
+    document.getElementById("demo-head9").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head9").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo10").style.position = "relative";
+    display9 = 0;
+  }
+  else{
+    document.getElementById("demo10").style.visibility = "hidden";
+    document.getElementById("demo-head9").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head9").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo10").style.position = "absolute";
+    display9 = 1;
+  }
+}
+
+var display10 = 0;
+  function myFunction10() {
+  if(display10 == 1){
+    document.getElementById("demo11").style.visibility = "visible";
+    document.getElementById("demo-head10").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head10").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo11").style.position = "relative";
+    display10 = 0;
+  }
+  else{
+    document.getElementById("demo11").style.visibility = "hidden";
+    document.getElementById("demo-head10").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head10").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo11").style.position = "absolute";
+    display10 = 1;
+  }
+}
+
+var display11 = 0;
+  function myFunction11() {
+  if(display11 == 1){
+    document.getElementById("demo12").style.visibility = "visible";
+    document.getElementById("demo-head11").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head11").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo12").style.position = "relative";
+    display11 = 0;
+  }
+  else{
+    document.getElementById("demo12").style.visibility = "hidden";
+    document.getElementById("demo-head11").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head11").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo12").style.position = "absolute";
+    display11 = 1;
+  }
+}
+
+var display12 = 0;
+  function myFunction12() {
+  if(display12 == 1){
+    document.getElementById("demo13").style.visibility = "visible";
+    document.getElementById("demo-head12").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head12").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo13").style.position = "relative";
+    display12 = 0;
+  }
+  else{
+    document.getElementById("demo13").style.visibility = "hidden";
+    document.getElementById("demo-head12").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head12").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo13").style.position = "absolute";
+    display12 = 1;
+  }
+}
+
+var display13 = 0;
+  function myFunction13() {
+  if(display13 == 1){
+    document.getElementById("demo14").style.visibility = "visible";
+    document.getElementById("demo-head13").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head13").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo14").style.position = "relative";
+    display13 = 0;
+  }
+  else{
+    document.getElementById("demo14").style.visibility = "hidden";
+    document.getElementById("demo-head13").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head13").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo14").style.position = "absolute";
+    display13 = 1;
+  }
+}
+// function myother(){
+//   document.getElementById("demo1").style.visibility='hidden';
+// }
+
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input img");
+const chatbox = document.querySelector(".chatbox");
+const chatbotToggler = document.querySelector(".chatbot-toggler");
+const chatbotCloseBtn = document.querySelector(".close-btn");
+
+let userMessage;
+const API_KEY = "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"; 
+const inputInitHeight = chatInput.scrollHeight;
+
+const createChatLi = (message,className) => {
+    // Create a chat <li> element with passed message and className
+   const chatLi = document.createElement("li");
+   chatLi.classList.add("chat",className);
+   let chatContent = className === "outgoing" ? `<p></p>` : `<img class="material-symbols-outlined" src="/portfolio/chatbot.png" alt=""><p></p>`;
+   chatLi.innerHTML = chatContent;
+   chatLi.querySelector("p").textContent = message;
+   return chatLi;
+}
+
+const generateResponse = (incomingChatLi) => {
+   const API_URL = "https://api.openai.com/v1/chat/completions";
+   const messageElement = incomingChatLi.querySelector("p");
+
+   const requestOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+        model: "gpt-3.5-turbo",
+        messages: [{role: "user", content: userMessage}]
+    })
+   }
+
+   // Send POST request to API, get response
+   fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+    messageElement.textContent = data.choices[0].message.content;
+   }).catch((error) => {
+    messageElement.classList.add("error");
+    messageElement.textContent = "Oops! Something went wrong. Please try again.";
+   }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
+}
+
+const handleChat = () => {
+   userMessage = chatInput.value.trim();
+   if(!userMessage) return;
+   chatInput.value = "";
+   chatInput.style.height = `${inputInitHeight}px`;
+
+   // Append the user message to the chatbox
+   chatbox.appendChild(createChatLi(userMessage,"outgoing"));
+   chatbox.scrollTo(0, chatbox.scrollHeight);
+
+   setTimeout(() => {
+    //Display "Thinking..." message while waiting for the response
+    const incomingChatLi = createChatLi("Thinking...","incoming")
+    chatbox.appendChild(incomingChatLi);
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    generateResponse(incomingChatLi);
+   },600);
+}  
+
+chatInput.addEventListener("input", () => {
+    chatInput.style.height = `${inputInitHeight}px`;
+    chatInput.style.height = `${chatInput.scrollHeight}px`;
+});
+
+chatInput.addEventListener("keydown", (e) => {
+    // If Enter key is pressed without Shift key and the window 
+    // width is greater than 800px, handle the chat
+    if(e.key === "Enter" && !e.shiftKey && window.innerWidth > 800){
+        e.preventDefault();
+        handleChat();
+    }
+});
+
+sendChatBtn.addEventListener("click",handleChat);
+chatbotCloseBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
